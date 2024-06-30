@@ -507,7 +507,7 @@ body {
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .menu-icon {
         display: flex;
     }
@@ -519,7 +519,6 @@ body {
         display: none;
         flex-direction: column;
         width: 100%;
-        /* background-color: var(--white-color); */
         position: absolute;
         top: 100%;
         left: 0;
@@ -578,7 +577,6 @@ body {
         display: none;
         flex-direction: column;
         width: 100%;
-        /* background-color: var(--white-color); */
         position: absolute;
         top: 100%;
         left: 0;
@@ -620,7 +618,7 @@ body {
         flex-direction: column;
     }
 
-}
+} */
 
 .about .title::after {
     content: "who i am";
