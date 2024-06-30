@@ -969,8 +969,8 @@ hr.hr-1 {
     color: crimson;
     font-size: 18px;
     font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
+    padding: 4px 8px;
+    margin-top: 10px;
     border-radius: 6px;
     border: 2px solid crimson;
     transition: 0.3s ease-in-out;
@@ -1716,7 +1716,7 @@ footer p a:hover {
 
 /* pr loader design  */
 #preloader {
-    background: url("img/e3a.gif") no-repeat center;
+    /* background: url("img/e3a.gif") no-repeat center; */
     background-size: 15%;
     filter: invert(100%);
     background-color: #fff;
