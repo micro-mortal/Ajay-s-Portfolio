@@ -1760,6 +1760,7 @@ footer p a:hover {
 
 @media (max-width: 768px) {
     .menu-icon {
+        margin: auto;
         display: flex;
     }
 
