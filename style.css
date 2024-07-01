@@ -1682,7 +1682,7 @@ footer p a:hover {
     }
     .menu__link {
         font-size: 0.9rem;
-        margin: 0 6px;
+        margin: 0 10px;
     }
     footer p {
         font-size: 0.9em;
@@ -1704,6 +1704,7 @@ footer p a:hover {
     .menu__link {
         font-size: 0.8rem;
         margin: 0 5px;
+        padding: auto;
     }
     footer p {
         font-size: 0.8em;
