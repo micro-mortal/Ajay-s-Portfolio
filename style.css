@@ -1897,6 +1897,9 @@ footer p a:hover {
     .form-card1{
         margin: auto;
     }
+    .menu-icon{
+        margin: 0 0;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -1936,6 +1939,9 @@ footer p a:hover {
     }
     .form-card1{
         margin: auto;
+    }
+    .menu-icon{
+        margin: 0 0;
     }
 }
 
@@ -1987,7 +1993,9 @@ footer p a:hover {
     .form-card1{
         margin: auto;
     }
-    
+    .menu-icon{
+        margin: 0 0;
+    }
 }
 
 /* @media (max-width: 768px) {
