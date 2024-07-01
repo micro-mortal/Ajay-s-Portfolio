@@ -601,19 +601,16 @@ hr.hr-1 {
 }
 
 /* services section styling */
-.services,
-.teams {
-    color: #fff;
+.services, .teams{
+    color:var(--body-color);
     background: var(--body-color);
 }
-
 .services .title::before,
-.teams .title::before {
+.teams .title::before{
     background: var(--text-color-dark);
 }
-
 .services .title::after,
-.teams .title::after {
+.teams .title::after{
     background: var(--body-color);
     content: "what i provide";
 }
@@ -1937,11 +1934,14 @@ footer p a:hover {
     .max-width{
         padding: 0 auto;
     }
+    section .title{
+        padding-bottom: 50px;
+    }
     .home .home-content .text-1 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .home .home-content .text-2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .home .home-content .text-3 {
