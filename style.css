@@ -1666,6 +1666,9 @@ footer p a:hover {
     footer p {
         font-size: 1em;
     }
+    .menu-icon{
+        margin: 0 auto;
+    }
 }
 
 /* Small screens (480px to 767px) */
@@ -1688,7 +1691,7 @@ footer p a:hover {
         font-size: 0.9em;
     }
     .menu-icon{
-        margin: 0 0;
+        margin: 0 auto;
     }
 }
 
@@ -1713,7 +1716,7 @@ footer p a:hover {
         font-size: 0.8em;
     }
     .menu-icon{
-        margin: 0 0;
+        margin: 0 auto;
     }
 }
 
