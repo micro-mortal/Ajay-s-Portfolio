@@ -1830,7 +1830,7 @@ footer p a:hover {
 
 @media (max-width: 768px) {
     .menu-icon {
-        margin: 0;
+        margin: 0 auto;
         display: flex;
     }
 
@@ -1898,7 +1898,7 @@ footer p a:hover {
         margin: auto;
     }
     .menu-icon{
-        margin: 0 0;
+        margin: 0 auto;
     }
 }
 
@@ -1941,7 +1941,7 @@ footer p a:hover {
         margin: auto;
     }
     .menu-icon{
-        margin: 0 0;
+        margin: 0 auto;
     }
 }
 
@@ -1994,7 +1994,7 @@ footer p a:hover {
         margin: auto;
     }
     .menu-icon{
-        margin: 0 0;
+        margin: 0 auto;
     }
 }
 
