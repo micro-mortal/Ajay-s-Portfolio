@@ -1667,7 +1667,7 @@ footer p a:hover {
         font-size: 1em;
     }
     .menu-icon{
-        margin:0;
+        margin:0 auto;
     }
 }
 
@@ -1691,7 +1691,7 @@ footer p a:hover {
         font-size: 0.9em;
     }
     .menu-icon{
-        margin:0;
+        margin:0 auto;
     }
 }
 
@@ -1716,7 +1716,7 @@ footer p a:hover {
         font-size: 0.8em;
     }
     .menu-icon{
-        margin:0;
+        margin:0 auto;
     }
 }
 
