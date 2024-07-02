@@ -1647,30 +1647,6 @@ footer p a:hover {
     }
 }
 
-/* Medium screens (768px to 1199px) */
-@media (max-width: 1199px) {
-    .footer {
-        padding: 20px 30px;
-    }
-    footer h2 {
-        font-size: 1.8em;
-    }
-    .social-icon__link {
-        font-size: 1.8rem;
-        margin: 0 8px;
-    }
-    .menu__link {
-        font-size: 1rem;
-        margin: 0 8px;
-    }
-    footer p {
-        font-size: 1em;
-    }
-    .menu-icon{
-        margin:0 auto;
-    }
-}
-
 /* Small screens (480px to 767px) */
 @media (max-width: 767px) {
     .footer {
@@ -1691,7 +1667,7 @@ footer p a:hover {
         font-size: 0.9em;
     }
     .menu-icon{
-        margin:0 auto;
+        margin: 0;
     }
 }
 
@@ -1709,33 +1685,18 @@ footer p a:hover {
     }
     .menu__link {
         font-size: 0.8rem;
-        margin: 0 0;
-        padding: 0 0;
+        margin: 0;
+        padding: 0;
     }
     footer p {
         font-size: 0.8em;
     }
     .menu-icon{
-        margin:0 auto;
+        margin: 0;
     }
 }
 
-
-/* pr loader design  */
-#preloader {
-    /* background: url("img/e3a.gif") no-repeat center; */
-    background-size: 15%;
-    filter: invert(100%);
-    background-color: #fff;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    cursor: pointer;
-    z-index: 1000;
-    /* border-radius: 12px; */
-}
-
-/* responsive media query start */
+/* Responsive adjustments for various elements */
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -1754,11 +1715,9 @@ footer p a:hover {
         display: block;
         z-index: 999;
     }
-
     .menu-btn i.active:before {
         content: "\f00d";
     }
-
     .navbar .menu {
         position: fixed;
         height: 100vh;
@@ -1770,57 +1729,45 @@ footer p a:hover {
         padding-top: 80px;
         transition: all 0.3s ease;
     }
-
     .navbar .menu.active {
         left: 0;
     }
-
     .navbar .menu li {
         display: block;
     }
-
     .navbar .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
-
     .home .home-content .text-2 {
         font-size: 70px;
     }
-
     .home .home-content .text-3 {
         font-size: 35px;
     }
-
     .home .home-content a {
         font-size: 23px;
         padding: 10px 30px;
     }
-
     .max-width {
         max-width: 930px;
     }
-
     .about .about-content .column {
         width: 100%;
     }
-
     .about .about-content .left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-
     .about .about-content .right {
         flex: 100%;
     }
-
     .services .serv-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-
     .skills .skills-content .column,
     .contact .contact-content .column {
         width: 100%;
@@ -1830,10 +1777,9 @@ footer p a:hover {
 
 @media (max-width: 768px) {
     .menu-icon {
-        margin: 0 auto;
+        margin: 0;
         display: flex;
     }
-
     .nav-menu {
         display: none;
         flex-direction: column;
@@ -1845,43 +1791,36 @@ footer p a:hover {
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease-in-out;
     }
-
     .nav-item {
         width: 100%;
         text-align: center;
         margin: 0;
     }
-
     .nav-item .nav-link {
         padding: 10px 0;
         display: block;
     }
-
     .nav-menu.active {
         display: flex;
     }
 }
 
-
 @media (max-width: 690px) {
     .max-width {
-        padding: 0 auto;
+        padding: 0;
     }
     .home .home-content .text-1 {
         font-size: 20px;
     }
-
     .home .home-content .text-2 {
         font-size: 50px;
     }
     .home .home-content .text-3 {
         font-size: 32px;
     }
-
     .home .home-content a {
         font-size: 20px;
     }
-
     .classbox {
         width: 140px;
         height: 70px;
@@ -1890,15 +1829,14 @@ footer p a:hover {
         width: 35px;
         height: 500%;
     }
-
     .services .serv-content .card {
         width: 100%;
     }
-    .form-card1{
+    .form-card1 {
         margin: auto;
     }
-    .menu-icon{
-        margin: 0 auto;
+    .menu-icon {
+        margin: 0;
     }
 }
 
@@ -1906,29 +1844,23 @@ footer p a:hover {
     .home .home-content .text-2 {
         font-size: 50px;
     }
-
     .home .home-content .text-3 {
         font-size: 27px;
     }
-
     .about .about-content .right .text,
     .skills .skills-content .left .text {
         font-size: 19px;
     }
-
     .contact .right form .fields {
         flex-direction: column;
     }
-
     .contact .right form .name,
     .contact .right form .email {
         margin: 0;
     }
-
     .right form .error-box {
         width: 150px;
     }
-
     .scroll-up-btn {
         right: 15px;
         bottom: 15px;
@@ -1937,20 +1869,19 @@ footer p a:hover {
         font-size: 23px;
         line-height: 38px;
     }
-    .form-card1{
+    .form-card1 {
         margin: auto;
     }
-    .menu-icon{
-        margin: 0 auto;
+    .menu-icon {
+        margin: 0;
     }
 }
 
 @media (max-width: 500px) {
-
-    .max-width{
-        padding: 0 auto;
+    .max-width {
+        padding: 0;
     }
-    section .title{
+    section .title {
         padding-bottom: 50px;
     }
     .home .home-content .text-1 {
@@ -1959,29 +1890,23 @@ footer p a:hover {
     .home .home-content .text-2 {
         font-size: 35px;
     }
-
     .home .home-content .text-3 {
         font-size: 20px;
     }
-
     .about .about-content .right .text,
     .skills .skills-content .left .text {
         font-size: 19px;
     }
-
     .contact .right form .fields {
         flex-direction: column;
     }
-
     .contact .right form .name,
     .contact .right form .email {
         margin: 0;
     }
-
     .right form .error-box {
         width: 150px;
     }
-
     .scroll-up-btn {
         right: 15px;
         bottom: 15px;
@@ -1990,13 +1915,14 @@ footer p a:hover {
         font-size: 23px;
         line-height: 38px;
     }
-    .form-card1{
+    .form-card1 {
         margin: auto;
     }
-    .menu-icon{
-        margin: 0 auto;
+    .menu-icon {
+        margin: 0;
     }
 }
+
 
 /* @media (max-width: 768px) {
     .menu-icon {
