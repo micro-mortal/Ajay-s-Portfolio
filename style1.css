@@ -1824,7 +1824,7 @@ footer p a:hover {
 @media (max-width: 768px) {
     .menu-icon {
         margin: 0 0;
-        display: flex;
+        /* display: flex; */
     }
 
     .nav-menu {
