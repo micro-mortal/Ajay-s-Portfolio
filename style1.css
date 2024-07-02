@@ -601,19 +601,16 @@ hr.hr-1 {
 }
 
 /* services section styling */
-.services,
-.teams {
-    color: #fff;
+.services, .teams{
+    color:var(--body-color);
     background: var(--body-color);
 }
-
 .services .title::before,
-.teams .title::before {
+.teams .title::before{
     background: var(--text-color-dark);
 }
-
 .services .title::after,
-.teams .title::after {
+.teams .title::after{
     background: var(--body-color);
     content: "what i provide";
 }
@@ -782,7 +779,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/pen_tool.png") no-repeat;
+    background: url("img/pen_tool.png") no-repeat;
     background-size: 100px;
     background-position: center;
     filter: invert(100%);
@@ -794,7 +791,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/code.png") no-repeat;
+    background: url("img/code.png") no-repeat;
     background-size: 100px;
     background-position: center;
     filter: invert(100%);
@@ -806,7 +803,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/search.png") no-repeat;
+    background: url("img/search.png") no-repeat;
     background-size: 100px;
     background-position: center;
     filter: invert(100%);
@@ -818,7 +815,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/video_camera.png") no-repeat;
+    background: url("img/video_camera.png") no-repeat;
     background-size: 100px;
     background-position: center;
     filter: invert(100%);
@@ -830,7 +827,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/grow.png") no-repeat;
+    background: url("img/grow.png") no-repeat;
     background-size: 100px;
     background-position: center;
     filter: invert(100%);
@@ -842,7 +839,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/android.png") no-repeat;
+    background: url("img/android.png") no-repeat;
     background-size: 100px;
     background-position: center;
     filter: invert(100%);
@@ -871,7 +868,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/android1.png") no-repeat;
+    background: url("img/android1.png") no-repeat;
     background-size: 100px;
     background-position: center;
 }
@@ -882,7 +879,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/grow1.png") no-repeat;
+    background: url("img/grow1.png") no-repeat;
     background-size: 100px;
     background-position: center;
 }
@@ -893,7 +890,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/video_camera1.png") no-repeat;
+    background: url("img/video_camera1.png") no-repeat;
     background-size: 100px;
     background-position: center;
 }
@@ -904,7 +901,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/search1.png") no-repeat;
+    background: url("img/search1.png") no-repeat;
     background-size: 100px;
     background-position: center;
 }
@@ -915,7 +912,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/code1.png") no-repeat;
+    background: url("img/code1.png") no-repeat;
     background-size: 100px;
     background-position: center;
 }
@@ -926,7 +923,7 @@ hr.hr-1 {
     width: 100px;
     height: 100px;
     opacity: 1;
-    background: url("/img/pen_tool1.png") no-repeat;
+    background: url("img/pen_tool1.png") no-repeat;
     background-size: 100px;
     background-position: center;
 }
@@ -1669,6 +1666,9 @@ footer p a:hover {
     footer p {
         font-size: 1em;
     }
+    .menu-icon{
+        margin:0;
+    }
 }
 
 /* Small screens (480px to 767px) */
@@ -1685,10 +1685,13 @@ footer p a:hover {
     }
     .menu__link {
         font-size: 0.9rem;
-        margin: 0 6px;
+        margin: 0 10px;
     }
     footer p {
         font-size: 0.9em;
+    }
+    .menu-icon{
+        margin:0;
     }
 }
 
@@ -1707,9 +1710,13 @@ footer p a:hover {
     .menu__link {
         font-size: 0.8rem;
         margin: 0 5px;
+        padding: 0 2px;
     }
     footer p {
         font-size: 0.8em;
+    }
+    .menu-icon{
+        margin:0;
     }
 }
 
@@ -1823,8 +1830,8 @@ footer p a:hover {
 
 @media (max-width: 768px) {
     .menu-icon {
-        margin: 0 0;
-        /* display: flex; */
+        margin: 0;
+        display: flex;
     }
 
     .nav-menu {
@@ -1890,6 +1897,9 @@ footer p a:hover {
     .form-card1{
         margin: auto;
     }
+    .menu-icon{
+        margin: 0 0;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -1930,6 +1940,9 @@ footer p a:hover {
     .form-card1{
         margin: auto;
     }
+    .menu-icon{
+        margin: 0 0;
+    }
 }
 
 @media (max-width: 500px) {
@@ -1937,11 +1950,14 @@ footer p a:hover {
     .max-width{
         padding: 0 auto;
     }
+    section .title{
+        padding-bottom: 50px;
+    }
     .home .home-content .text-1 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .home .home-content .text-2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .home .home-content .text-3 {
@@ -1977,7 +1993,9 @@ footer p a:hover {
     .form-card1{
         margin: auto;
     }
-    
+    .menu-icon{
+        margin: 0 0;
+    }
 }
 
 /* @media (max-width: 768px) {
